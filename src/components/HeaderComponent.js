@@ -43,16 +43,19 @@ class Header extends Component {
                 <Jumbotron fluid>
                     <div className="container">
                         <div className="row">
-                            <div className="col">
-                                <h1>NuCamp</h1>
-                                <h2>a better way to camp</h2>
+                            <div className="col-3 col-md-2 align-self-center">
+                                <img src="/assets/images/logo3.png" alt="logo" class="img-fluid" />
+                            </div>
+                            <div className="col align-self-center">
+                                <h1>IT Consulting</h1>
+                                <h2>Cloud and VDI Consulting Services</h2>
                             </div>
                         </div>
                     </div>
                 </Jumbotron>
                 <Navbar dark sticky="top" expand="md">
                     <div className="container">
-                        <NavbarBrand className="mr-auto" href="/"><img src="/assets/images/logo.png" height="30" width="30" alt="NuCamp Logo" /></NavbarBrand>
+                        <NavbarBrand className="mr-auto" href="/"><img src="/assets/images/logo3.png" height="30" width="30" alt="NuCamp Logo" /></NavbarBrand>
                         <NavbarToggler onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar>

@@ -2,7 +2,7 @@ export const CAMPSITES = [
     {
         id: 0,
         name: "React Lake Campground",
-        image: "/assets/images/react-lake.jpg",
+        image: "/assets/images/consultant.jpg",
         elevation: 1233,
         featured: false,
         description: "Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers."
@@ -25,10 +25,10 @@ export const CAMPSITES = [
     },
     {
         id: 3,
-        name:"Redux Woods Campground",
-        image: "/assets/images/redux-woods.jpg",
+        name:"Strategy & Design",
+        image: "/assets/images/consulting.jpg",
         elevation: 42,
         featured: true,
-        description: "You'll never want to leave this hidden gem, deep within the lush Redux Woods."
+        description: "Every great implementation begins with a clear strategy and a well thought-out plan. That’s why each project starts with multiple in-depth meetings that allow our consultants and technologists to fully grasp your business’s needs, struggles and current procedures. <br> Our team members immerse themselves in your business and apply proven best practices to create a results-focused approach. We design new business processes, establish the technical vision, and ensure you are able to deliver a superior customer experience. We’ll ensure you’re able to maximize your investment by leveraging modern measurement capabilities available with today’s cloud platforms including powerful insight and analytics."
     }
 ];

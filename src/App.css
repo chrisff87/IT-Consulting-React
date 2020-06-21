@@ -22,23 +22,30 @@ h2 {
 }
 
 .site-footer {
-    background-image: linear-gradient(#CEC8FF, white);
-    padding: 20px 0;
+    background-image: linear-gradient( #4DBEFF, black);
+    padding: 20px 0px;
 }
 
-.jumbotron {
-    margin: 0;
-    padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+.site-footer h5{
+    color: black;
+}
+
+.site-footer a {
     color: white;
 }
 
-.jumbotron h2 {
-    color: #CEC8FF;
+.jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(to right,black, #4DBEFF);
+    margin: 0px;
 }
 
-.navbar-dark {
-    background-color: #901CAD;
+.jumbotron h1, .jumbotron h2 {
+    color: white;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, black, #BBBBBB);
 }
 
 .page-enter {
